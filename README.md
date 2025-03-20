@@ -22,7 +22,7 @@ Install dependencies via `pip`:
 pip install numpy pandas scikit-learn matplotlib seaborn scipy graphviz
 ```
 ## Walkthrough
-**1.Generate Synthetic Dataset (Exercise 0):**
+**1. Generate Synthetic Dataset (Exercise 0):**
 ```bash
 python3 GenDataset.py
 ```
