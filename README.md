@@ -46,11 +46,15 @@ Preprocess data (one-hot encoding, train-test split, scaling).
 ![3d_signal_features](GPS%20NLOS%20Signal%20Identification%20Using%20Machine%20Learning/Code/figures/3d_signal_features.png)
 
 **Model Implementation (Exercise 2-5):**
+
 ***Exercise 2: Implement Linear Regression Model***
+
 Train and evaluate models:
+
 '''bash
 python3 LinearRegress.py
 '''
+
 Implement linear regression model for NLOS classification, evaluate the model's performanceusing mses, r2 scores, accuracy and confusion matrix. The coefficients of the linear regression model can be used to understand how each feature contributes to NLOS classification. They are analyzed and visualized in the end.
 
 ![linear_regression_coefficients](GPS%20NLOS%20Signal%20Identification%20Using%20Machine%20Learning/Code/figures/linear_regression_coefficients.png)
@@ -64,6 +68,7 @@ Implement linear regression model for NLOS classification, evaluate the model's 
 
 
 ***Exercise 3: Implement Logistic Regression Model***
+
 '''bash
 python3 LogisticReg.py
 '''
@@ -87,9 +92,11 @@ Implement Logistic regression model for NLOS classification, evaluate the model'
 ![logistic_regression_boundary](GPS%20NLOS%20Signal%20Identification%20Using%20Machine%20Learning/Code/figures/logistic_regression_boundary.png)
 
 ***Exercise 4: Implement Decision Tree***
+
 '''bash
 python3 DecisionTree.py
 '''
+
 ![decision_tree_visualization](GPS%20NLOS%20Signal%20Identification%20Using%20Machine%20Learning/Code/figures/decision_tree_visualization.png)
 
 ![decision_tree_importantance](GPS%20NLOS%20Signal%20Identification%20Using%20Machine%20Learning/Code/figures/decision_tree_feature_importance.png)
@@ -101,9 +108,11 @@ Implement Decision tree for NLOS classification, evaluate the model's performanc
 ![decision_tree_summary_table](GPS%20NLOS%20Signal%20Identification%20Using%20Machine%20Learning/Code/figures/decision_tree_summary.png)
 
 ***Exercise 5: Implement SVM (Support Vector Machines) & Exercise 6: Model Comparision and Real-World Application***
+
 '''bash
 python3 Comparison.py
 '''
+
 ![svm_model_comparison](GPS%20NLOS%20Signal%20Identification%20Using%20Machine%20Learning/Code/figures/model_comparison.png)
 
 
